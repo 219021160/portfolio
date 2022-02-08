@@ -10,13 +10,13 @@ const Footer = () => {
         <div className='flex justify-between w-[90%] lg:w-[96%] mx-auto '>
 
             {/* Whatsapp */}
-           <FooterLink link={null} icon={profile} /> 
+           <FooterLink link={null} icon={profile} name={"Whatsapp"} /> 
             {/* Linkedin */}
-           <FooterLink link={null} icon={profile} /> 
+           <FooterLink link={null} icon={profile} name={"LinkedIn"} /> 
            {/* Email */}
-           <FooterLink link={null} icon={profile} /> 
+           <FooterLink link={null} icon={profile} name={"Gmail"} /> 
            {/* Github */}
-           <FooterLink link={null} icon={profile} /> 
+           <FooterLink link={null} icon={profile} name={"Github"} /> 
         </div>
     )
 }

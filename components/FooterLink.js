@@ -2,7 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 
-const FooterLink = ({link, icon}) => {
+const FooterLink = ({link, icon, name}) => {
 
     
 
@@ -16,7 +16,7 @@ const FooterLink = ({link, icon}) => {
                     <Image src={icon} objectFit="contain" />          
                 </div>
 
-                <p className=' text-xs'>Whatsapp</p>
+                <p className=' text-xs'>{name}</p>
 
             </div>
         

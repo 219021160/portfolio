@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import React from 'react'
 import { setPageHeading } from '../Helper/Helper';
 
@@ -8,9 +9,13 @@ const Projects = ({setCurrentPage, setHeading}) => {
 
 
     return (
-        <div>
+        <>
+
+        <Head>
+            <title>My Projects</title>
+        </Head>
             
-        </div>
+        </>
     )
 }
 

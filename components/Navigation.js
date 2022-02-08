@@ -13,7 +13,7 @@ const Navigation = ({isOpen, setIsOpen, currentPage}) => {
 
     return (
     
-        <div className={(isOpen!=true?'hidden ':'') +"lg:flex flex  flex-col h-full justify-center space-y-2 text-center  "}>
+        <div className={(isOpen!=true?'hidden ':'') +"lg:flex flex flex-col h-full justify-center space-y-2 text-center "}>
 
 
                    
@@ -51,12 +51,19 @@ const Navigation = ({isOpen, setIsOpen, currentPage}) => {
 
                    {/* footer */}
                    <div>
-                    <div className='mt-5'>
+                        <div className='my-5'>
                             <Footer/>
+                        </div>
+
+                        <div className=" font-thin text-gray-500 tracking-wide">
+                            <p><small>                       
+                                Copyright &copy;{new Date().getFullYear() + " "}
+                                All rights reserved
+                            </small></p>
                         </div>
                     </div>
                    
-                   
+        
                    
                 </div>   
 

@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from 'next/link';
 import {setPageHeading} from "../Helper/Helper"
 // @ts-ignore
 import profile from "../public/profile/profile4.png"
@@ -24,7 +25,7 @@ export default function Home({setHeading, setCurrentPage}) {
 
 
       <main className='h-screen lg:h-full flex flex-col justify-center items-center '>
-
+  
 
         <div className='flex flex-col justify-center space-y-5 h-screen lg:h-full lg:max-w-[65%]'>
 
@@ -40,9 +41,8 @@ export default function Home({setHeading, setCurrentPage}) {
             <button className='border border-gray-500 dark:bg-gray-900 bg-gray-300 py-1 w-28 hover:scale-105 hover:outline-1 hover:outline hover:outline-slate-400 shadow-sm shadow-slate-500 ease-out duration-500 cursor-pointer '>CV</button>
             <button className='border border-gray-500 dark:bg-gray-900 bg-gray-300 py-1 w-28 hover:scale-105 hover:outline-1 hover:outline hover:outline-slate-400 shadow-sm shadow-slate-500 ease-out duration-500 cursor-pointer '>Contact Me</button>
           </div>
-
+          
         </div>
-        
       
       </main>
 

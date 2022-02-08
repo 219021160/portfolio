@@ -34,11 +34,11 @@ function MyApp({ Component, pageProps }) {
 
 
         {/* BODY */}
-        <div className='flex flex-col lg:flex-row space-x-2 mx-2 my-4 lg:m-8 lg:p-4 pr-2 py-4  border dark:border-slate-700'>
+        <div className='flex flex-col lg:flex-row sm:max-w-[80%] lg:max-w-[85%] space-x-2 mx-2 sm:mx-auto lg:mx-auto my-4 lg:m-8 lg:p-4 pr-2 py-4  border  dark:border-slate-900'>
           
 
           {/* SIDEBAR/MENU */}
-          <div className='lg:w-[30%] lg:pr-4 pl-1 lg:border-r lg:dark:border-slate-700'>
+          <div className='lg:w-[27.8%] lg:pr-4 pl-1 lg:border-r lg:dark:border-slate-900'>
             <Navigation isOpen={isOpen} setIsOpen={setIsOpen} currentPage={currentPage} />
           </div>
 
